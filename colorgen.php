@@ -51,7 +51,7 @@
     <input id="finalcolor3" name="finalcolor3" type="text" style="display: none;" value=""></input>
     <input id="finalcolor4" name="finalcolor4" type="text" style="display: none;" value=""></input>
     <input id="finalcolor5" name="finalcolor5" type="text" style="display: none;" value=""></input>
-    <input type="submit" value="Save"></input>
+    <input type="submit" value="Save" id="whatt"></input>
   </form>
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 <script>
