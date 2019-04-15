@@ -3,11 +3,23 @@
 	<title>Saved Schemes</title>
 
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins|Prata" rel="stylesheet">
+
+
 </head>
 <body>
 	<div class="nav">
-		<a href="colorgen.php">Make a Scheme</a>
-		<a href="viewcolors.php">View Schemes</a>
+		<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+	<a href="colorgen.php">Make a Scheme</a>
+</li>
+<li class="nav-item">
+	<a href="viewcolors.php">View Schemes</a>
+
+</li>
+			</ul>
 	</div>
 <?php
         $user = "alexrosi_alexros";
