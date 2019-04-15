@@ -1,31 +1,9 @@
 <html>
 <head>
   <title>Color Thing</title>
-  <style>
-    #color-box {
-      height: 100px;
-      width: 100px;
-    }
-    #color-box2 {
-      height: 100px;
-      width: 100px;
-    }
-    #color-box3 {
-      height: 100px;
-      width: 100px;
-    }
-    #color-box4{
-      height: 100px;
-      width: 100px;
-    }
-    #color-box5 {
-      height: 100px;
-      width: 100px;
-    }
-    #whatt {
-      display: none;
-    }
-  </style>
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 <body>
   <div class="nav">
