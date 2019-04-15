@@ -5,27 +5,22 @@
     #color-box {
       height: 100px;
       width: 100px;
-      display: none;
     }
     #color-box2 {
       height: 100px;
       width: 100px;
-      display: none;
     }
     #color-box3 {
       height: 100px;
       width: 100px;
-      display: none;
     }
     #color-box4{
       height: 100px;
       width: 100px;
-      display: none;
     }
     #color-box5 {
       height: 100px;
       width: 100px;
-      display: none;
     }
     #whatt {
       display: none;
@@ -107,11 +102,6 @@ $(document).ready(function () {
               $('#color-box3').css("background-color", color3);
               $('#color-box4').css("background-color", color4);
               $('#color-box5').css("background-color", color5);
-              $('#color-box').slideDown("slow");
-              $('#color-box2').slideDown("slow");
-              $('#color-box3').slideDown("slow");
-              $('#color-box4').slideDown("slow");
-              $('#color-box5').slideDown("slow");
               $('#whatt').css("display", "inline");
               $('#color-box').text(name1);
               $('#color-box2').text(name2);
