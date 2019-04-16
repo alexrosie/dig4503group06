@@ -10,16 +10,20 @@
 
 </head>
 <body>
-	<div class="nav">
-		<ul class="navbar-nav mr-auto">
-<li class="nav-item">
-	<a href="colorgen.php">Make a Scheme</a>
-</li>
-<li class="nav-item">
-	<a href="viewcolors.php">View Schemes</a>
+	<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Color Thing</a>
+<ul class="navbar-nav">
+    <li class="nav-item">
+      <a href="colorgen.php" class="nav-link">Make a Scheme</a>
+  </li>
+  <li class="nav-item">
+      <a href="viewcolors.php" class="nav-link">View Schemes</a>
 
-</li>
-			</ul>
+  </li>
+</ul>
+    </div>
+    <br>
 	</div>
 <?php
         $user = "alexrosi_alexros";
