@@ -27,25 +27,81 @@
 a {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  text-decoration: none;
+  color: #373737;
 
+}
+a:hover {
+  color: #DCD0C0;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #373737;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  display: none;
+  font-family: 'Prata', serif;
 }
 
 #monobutton {
-
+  background-color: #C0B283;
+  font-family: 'Prata', serif;
+    border: none;
+    color: #373737;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #anabutton{
-
+  background-color: #C0B283;
+  font-family: 'Prata', serif;
+    border: none;
+    color: #373737;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #compbutton{
-
+  background-color: #C0B283;
+  font-family: 'Prata', serif;
+    border: none;
+    color: #373737;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #colorsaver {
-  
+
 }
 
 input[type=submit]{
-
+  background-color: #DCD0C0;
+  font-family: 'Prata', serif;
+    border: none;
+    color: #373737;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
 }

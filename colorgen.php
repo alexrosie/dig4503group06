@@ -9,17 +9,21 @@
 
 </head>
 <body>
-  <div class="nav">
-      <ul class="navbar-nav mr-auto">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Color Thing</a>
+<ul class="navbar-nav">
+    <li class="nav-item">
+      <a href="colorgen.php" class="nav-link">Make a Scheme</a>
+  </li>
   <li class="nav-item">
-    <a href="colorgen.php">Make a Scheme</a>
-</li>
-<li class="nav-item">
-    <a href="viewcolors.php">View Schemes</a>
+      <a href="viewcolors.php" class="nav-link">View Schemes</a>
 
-</li>
-        </ul>
-  </div>
+  </li>
+</ul>
+    </div>
+    <br>
+<div class="container" style="width: 700px;">
   <button id="monobutton">Monochromatic</button>
   <button id="anabutton">Analogic</button>
   <button id="compbutton">Complementary</button>
@@ -41,6 +45,7 @@
     <input id="finalcolor5" name="finalcolor5" type="text" style="display: none;" value=""></input>
     <input type="submit" value="Save" id="whatt"></input>
   </form>
+</div>
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 <script>
 $(document).ready(function () {
