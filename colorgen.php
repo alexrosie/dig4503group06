@@ -23,7 +23,7 @@
 </ul>
     </div>
     <br>
-<div class="container" style="width: 700px;">
+<div class="container" style="width: 900px;">
 
   <button class="btn btn-1" id="monobutton">Monochromatic</button>
   <button class="btn btn-2" id="anabutton">Analogic</button>
