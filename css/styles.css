@@ -47,6 +47,25 @@ a:hover {
   font-family: 'Prata', serif;
 }
 
+.card {
+  width: 40%;
+  align-content: center;
+  text-align: center;
+  margin:auto;
+}
+
+.saved-scheme {
+	height:30px;
+	width:100%;
+	float: left;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  /*display: inline-block;*/
+	color: #ffffff;
+	text-shadow: 0px 0px 2px #000000;
+}
+
 #monobutton {
   background-color: #C0B283;
   font-family: 'Prata', serif;
@@ -104,4 +123,38 @@ input[type=submit]{
     display: inline-block;
     font-size: 18px;
     border-radius: 8px;
+}
+
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.btn-2 {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.btn-3 {
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
 }

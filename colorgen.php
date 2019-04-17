@@ -24,9 +24,17 @@
     </div>
     <br>
 <div class="container" style="width: 700px;">
-  <button id="monobutton">Monochromatic</button>
-  <button id="anabutton">Analogic</button>
-  <button id="compbutton">Complementary</button>
+  <button class="btn btn-1" id="monobutton">Monochromatic</button>
+  <button class="btn btn-2" id="anabutton">Analogic</button>
+  <button class="btn btn-3" id="compbutton">Complementary</button>
+  <div class="col" id="loadingCol">
+    <!-- loading wheel -->
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border text-dark m-5" role="status" id="loading">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+  </div>
   <div id="color-box">
   </div>
   <div id="color-box2">
@@ -49,6 +57,29 @@
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 <script>
 $(document).ready(function () {
+  //--------------------------------------------Hid and show loading Gif on Ajax calls
+    $('#loading').css('display','none');
+
+    $( "#monobutton" ).click(function() {
+      $('#loading').css('display','block');
+    });
+    $( "#anabutton" ).click(function() {
+      $('#loading').css('display','block');
+    });
+    $( "#compbutton" ).click(function() {
+      $('#loading').css('display','block');
+    });
+
+    function HideProgress(){
+       $('#loading').css('display','none');
+     }
+
+    function ShowProgress() {
+      if($('#loading').css('display') == "none"){
+          $("#loading").show();
+        }
+    }
+  //--------------------------------------------Hid and show loading Gif on Ajax calls
 
       var api_url;
       function getRandomHex() {
@@ -79,6 +110,12 @@ $(document).ready(function () {
             url : api_url,
             method : 'GET',
             dataType: "jsonp",
+            beforesend: function(){
+              ShowProgress();
+            },
+            complete: function(){
+              HideProgress();
+            },
             success : function (data) {
               var color1 = data.colors[0].hex.value;
               var name1 = data.colors[0].name.value;
@@ -106,6 +143,10 @@ $(document).ready(function () {
               $('#finalcolor3').val(color3);
               $('#finalcolor4').val(color4);
               $('#finalcolor5').val(color5);
+              HideProgress();
+            },
+            error: function(){
+              alert("Im sorry we have encountered an issue with our servers");
             }
       });
       //  document.getElementById("color-box").style.backgroundColor = color1;
@@ -129,6 +170,12 @@ $('#monobutton').on('click', function () {
             url : api_url,
             method : 'GET',
             dataType: "jsonp",
+            beforesend: function(){
+              ShowProgress();
+            },
+            complete: function(){
+              HideProgress();
+            },
             success : function (data) {
               var color1 = data.colors[0].hex.value;
               var name1 = data.colors[0].name.value;
@@ -156,6 +203,10 @@ $('#monobutton').on('click', function () {
               $('#finalcolor3').val(color3);
               $('#finalcolor4').val(color4);
               $('#finalcolor5').val(color5);
+              HideProgress();
+            },
+            error: function(){
+              alert("Im sorry we have encountered an issue with our servers");
             }
       });
       //  document.getElementById("color-box").style.backgroundColor = color1;
@@ -180,6 +231,12 @@ $('#monobutton').on('click', function () {
         url : api_url,
         method : 'GET',
         dataType: "jsonp",
+        beforesend: function(){
+          ShowProgress();
+        },
+        complete: function(){
+          HideProgress();
+        },
         success : function (data) {
           var color1 = data.colors[0].hex.value;
           var name1 = data.colors[0].name.value;
@@ -207,6 +264,10 @@ $('#monobutton').on('click', function () {
               $('#finalcolor3').val(color3);
               $('#finalcolor4').val(color4);
               $('#finalcolor5').val(color5);
+              HideProgress();
+        },
+        error: function(){
+          alert("Im sorry we have encountered an issue with our servers");
         }
   });
   //  document.getElementById("color-box").style.backgroundColor = color1;
