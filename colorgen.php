@@ -24,9 +24,11 @@
     </div>
     <br>
 <div class="container" style="width: 700px;">
-  <button class="btn btn-1" id="monobutton">Monochromatic</button>
-  <button class="btn btn-2" id="anabutton">Analogic</button>
-  <button class="btn btn-3" id="compbutton">Complementary</button>
+  <div class="container2">
+    <button class="btn btn-1" id="monobutton">Monochromatic</button>
+    <button class="btn btn-2" id="anabutton">Analogic</button>
+    <button class="btn btn-3" id="compbutton">Complementary</button>
+  </div>
   <div class="col" id="loadingCol">
     <!-- loading wheel -->
     <div class="d-flex justify-content-center">

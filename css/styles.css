@@ -125,6 +125,17 @@ input[type=submit]{
     border-radius: 8px;
 }
 
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
 .btn {
   flex: 1 1 auto;
   margin: 10px;
