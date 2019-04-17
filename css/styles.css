@@ -125,16 +125,6 @@ input[type=submit]{
     border-radius: 8px;
 }
 
-.container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 80vw;
-  margin: 0 auto;
-  min-height: 100vh;
-}
 
 .btn {
   flex: 1 1 auto;
@@ -150,22 +140,22 @@ input[type=submit]{
   border-radius: 10px;
  }
 
-/* Demo Stuff End -> */
-
-/* <- Magic Stuff Start */
-
 .btn:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center;
+  transition: 0.5s; /* change the direction of the change here */
 }
 
 .btn-1 {
   background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  transition: 0.5s;
 }
 
 .btn-2 {
   background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  transition: 0.5s;
 }
 
 .btn-3 {
   background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  transition: 0.5s;
 }
