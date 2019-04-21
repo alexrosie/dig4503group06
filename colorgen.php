@@ -11,7 +11,7 @@
 <body>
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Color Schemer</a>
+      <a class="navbar-brand" href="colorgen.php">Color Schemer</a>
 <ul class="navbar-nav">
     <li class="nav-item">
       <a href="colorgen.php" class="nav-link">Make a Scheme</a>
@@ -53,7 +53,7 @@
     <input id="finalcolor3" name="finalcolor3" type="text" style="display: none;" value=""></input>
     <input id="finalcolor4" name="finalcolor4" type="text" style="display: none;" value=""></input>
     <input id="finalcolor5" name="finalcolor5" type="text" style="display: none;" value=""></input>
-    <input type="submit" value="Save" id="whatt"></input>
+    <input type="submit" value="SAVE" id="whatt"></input>
   </form>
 </div>
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>

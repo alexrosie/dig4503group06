@@ -12,7 +12,7 @@
 <body>
 	<div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Color Schemer</a>
+      <a class="navbar-brand" href="colorgen.php">Color Schemer</a>
 <ul class="navbar-nav">
     <li class="nav-item">
       <a href="colorgen.php" class="nav-link">Make a Scheme</a>
@@ -25,6 +25,8 @@
     </div>
     <br>
 	</div>
+
+	<div class="container-fluid">
 <?php
         $user = "alexrosi_alexros";
         $pass = '44Hedgehog$';///
@@ -49,3 +51,5 @@
               echo "</div>";
             }
 ?>
+
+</div>
