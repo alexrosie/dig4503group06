@@ -108,16 +108,14 @@ a:hover {
     box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-#colorsaver {
 
-}
 
 input[type=submit]{
   background-color: #DCD0C0;
   font-family: 'Prata', serif;
     border: none;
     color: #373737;
-    padding: 15px 32px;
+    padding: 15px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
