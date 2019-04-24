@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width:auto;">
       <a class="navbar-brand" href="colorgen.php">Color Schemer</a>
 <ul class="navbar-nav">
     <li class="nav-item">
